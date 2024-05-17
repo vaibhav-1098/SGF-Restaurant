@@ -1,0 +1,70 @@
+*{scroll-behavior: smooth !important;}
+
+body{
+  overflow-x: hidden;
+  background-color: #FFF7EB;
+}
+
+.navbar-brand{
+  background-color: red !important;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  color: white !important;
+  font-weight: 500;
+}
+
+/*  */
+.menu-rate{
+  margin-top: 2.5rem;
+  width: 100%;
+}
+#Soups img{margin-top: 0 !important;}
+/*  */
+
+.social-media{
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 8px;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin-top: 0.5rem;
+  border: none;
+  color: #fda14bb6;
+  font-size: 1.6rem;
+}
+
+navbar-nav li a{
+  border: 1px solid black;
+}
+
+.list{display: flex; align-items: center; justify-content: space-evenly;}
+.list a{
+  margin: 5px 0;
+  border: 1px solid black;
+  padding: 10px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  border-radius: 5px;
+}
+
+.form-group{width: 250px;}
+
+/* Media Queries */
+@media (width>=1000px){
+  .menu-rate{
+    width: 50%;
+    margin-left: 25%;
+  }
+  .form-group{width: 80%;}
+  #stars{margin-left: 42%;}
+  .pic{
+    height: 200px;
+    width: 200px;
+  }
+  .list{display: none;}
+
+  #carouselExampleIndicators {
+    max-width: 800px;
+    margin: 0 auto;
+}
+}
